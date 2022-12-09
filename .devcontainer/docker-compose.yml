@@ -1,0 +1,7 @@
+services:
+  abcd:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - ENVVAR=true
